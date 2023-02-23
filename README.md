@@ -1,7 +1,7 @@
 # Hypeboost-Sneaker-Scraper
 Scraper for Sneaker Prices on Hypeboost with discord message
 
-How to use:
+# How to use:
 
 1. Check or install following libraries:
 
