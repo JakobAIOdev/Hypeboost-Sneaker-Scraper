@@ -3,8 +3,8 @@ Scraper for Sneaker Prices on Hypeboost with discord message
 
 How to use:
 
-1. Check or install following libraries
-requirements: 
+1. Check or install following libraries:
+
 + requests (pip install requests)
 + json (pip install json)
 + BeautifulSoup (pip install beautifulsoup4)
