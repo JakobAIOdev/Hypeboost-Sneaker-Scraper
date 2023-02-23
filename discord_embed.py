@@ -8,7 +8,7 @@ from Scraper_Main import stockx_url
 from Scraper_Main import restocks_url
 
 
-TOKEN = 'MTA3MjIyODk0Nzg4ODE5MzU0Ng.GqOJPA.sv9j3_GxUS2RFWvKRnlik7KRT7Dy0fv9t7mYkY'
+TOKEN = ''
 
 hypeboost_preise = Scraper_Main.product_search
 product_url = Scraper_Main.product_url
