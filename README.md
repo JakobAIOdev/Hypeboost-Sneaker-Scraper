@@ -17,4 +17,10 @@ How to use:
 
 4. write the keyword + SKU in your discord server. format: $scrape SKU (example: $scrape CW1590-100)
 
+
+
+The Scraper will now send you all listed sizes and their prices in the discord server.
+Also the Hypeboost Product URL is in the blue title.
+At the bottom of the discord message you can also find the StockX and Restocks Product URL to the Scraped Product.
+
 ![image](https://user-images.githubusercontent.com/103487648/220943667-49b95419-911b-4276-afca-d8c7125b61e0.png)
