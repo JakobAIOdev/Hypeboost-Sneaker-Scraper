@@ -44,4 +44,4 @@ if you have any questions just ask them and i will try to help.
 The return message looks like this:
 
 
-![image](https://user-images.githubusercontent.com/103487648/220943667-49b95419-911b-4276-afca-d8c7125b61e0.png)
+![Discord-embed-pic2](https://user-images.githubusercontent.com/103487648/221241049-eb73f4b7-4582-4e05-b028-e1f7fcac9627.png)
