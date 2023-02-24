@@ -12,7 +12,6 @@ def product_search(SKU):
   response = requests.request("GET", url, headers=headers)
 
   soup = BeautifulSoup(response.content, 'html.parser')
-
   for a in soup.find_all('a', href=True):
     print("Product URL:", a['href'])
 
@@ -20,16 +19,19 @@ def product_search(SKU):
 
   soup2 = BeautifulSoup(response_url.text, 'html.parser')
 
-  size = soup2.find('div', 'sizes') #finds all sizes + prices (format is shit!)
-  size_text = size.get_text()
-  size_text_formated1 = size_text.replace("\n", " ")
-  size_text_formated2 = size_text_formated1.strip().replace('    ', " ")
-  size_text_formated3 = size_text_formated2.replace(' €', '€')
-  size_text_formated4 = size_text_formated3.replace(' ½', '½')
-  size_text_formated5 = size_text_formated4.replace('€ ', '€\n\n')
+  sizes = []
+  for size_elem in soup2.select('.size'):
+      if 'available' in size_elem['class']:
+          label = size_elem.select_one('.label').text
+          price = size_elem.select_one('.price span').text.strip()
+          sizes.append(f"{label}: {price}")
+      elif 'sold-out' in size_elem['class']:
+          label = size_elem.select_one('.label').text
+          sizes.append(f"{label}: OOS!")
 
-  print('Scraped sizes & prices!')
-  return size_text_formated5
+  output = "\n".join(element.replace(" €", "€").replace(" ½", "½") for element in sizes)
+  print("Sizes & Prices Scraped!")
+  return output
 
 def product_title(product_url_output):
   headers = {
