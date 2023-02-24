@@ -22,7 +22,7 @@ A Product Photo is also added to the return message.
 
 3. Run the "discord_embed" file.
 
-4. write the keyword ($) + SKU in your discord server.
+4. write the keyword ($scrape) + SKU in your discord server.
    format: $scrape SKU --> (example: $scrape CW1590-100)
 
 
