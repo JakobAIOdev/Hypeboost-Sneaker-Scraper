@@ -9,9 +9,6 @@ from Scraper_Main import product_picture
 from Scraper_Main import stockx_url
 from Scraper_Main import restocks_url
 
-#Your Discord Bot Token here:
-TOKEN = ''
-
 hypeboost_preise = Scraper_Main.product_search
 product_url = Scraper_Main.product_url
 product_title = Scraper_Main.product_title
