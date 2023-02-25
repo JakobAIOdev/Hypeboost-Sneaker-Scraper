@@ -1,6 +1,7 @@
 import discord
 import config
 import Scraper_Main
+from config import TOKEN, CHANEL_NAME
 from discord.ext import commands
 from Scraper_Main import product_url
 from Scraper_Main import product_title
