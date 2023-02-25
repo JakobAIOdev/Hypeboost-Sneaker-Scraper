@@ -21,7 +21,7 @@ A Product Photo is also added to the return message.
 2. Open "Config" file and input your Discord Bot Token and the name of the chanel were you want to use the scraper in.
 
 
-3. Open and run the "discord_embed" file.
+3. Open and run the "discord_embed" file. (best for this is VS-Code in my opinion)
 
 4. Write the keyword ($scrape) + SKU in your discord server (you have to write the message in the same chanel that you added to the config file!)
    format: $scrape SKU --> (example: $scrape CW1590-100)
