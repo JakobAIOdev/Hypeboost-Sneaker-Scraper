@@ -18,16 +18,16 @@ A Product Photo is also added to the return message.
 + Discord (pip install discord.py)
 
 
-2. Open "Config" file and input your Discord Bot Token and the name of the chanel were you want to use the scraper in.
+2. Open "Config" file and input your Discord Bot Token and the name of the channel were you want to use the scraper in.
 
 
 3. Open and run the "discord_embed" file. (best for this is VS-Code in my opinion)
 
-4. Write the keyword ($scrape) + SKU in your discord server (you have to write the message in the same chanel that you added to the config file!)
+4. Write the keyword ($scrape) + SKU in your discord server (you have to write the message in the same channel that you added to the config file!)
    format: $scrape SKU --> (example: $scrape CW1590-100)
 
 
-The Scraper will now send you all listed sizes and their prices in the discord chat.
+The Scraper will now send you all listed sizes and their prices in the discord channel.
 Also the Hypeboost Product URL is in the blue title.
 At the bottom of the discord message you can also find the StockX and Restocks Product URL to the Scraped Product.
 
