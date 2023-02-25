@@ -18,7 +18,7 @@ A Product Photo is also added to the return message.
 + Discord (pip install discord.py)
 
 
-2. Open "Config" file and input your Discord Bot Token and the name of the chanel were you want to use the scraper.
+2. Open "Config" file and input your Discord Bot Token and the name of the chanel were you want to use the scraper in.
 
 
 3. Open and run the "discord_embed" file.
