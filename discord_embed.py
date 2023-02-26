@@ -61,12 +61,12 @@ async def on_message(message):
           )
           embed.add_field(
             name='StockX',
-            value=stockx_url_output,
+            value=f"[Open Product on StockX]({stockx_url_output})",
             inline=False
           )
           embed.add_field(
-            name='Restocks',
-            value=restocks_url_output,
+            name="Restocks",
+            value=f"[Open Product on Restocks]({restocks_url_output})",
             inline=False
           )
           embed.set_footer(
